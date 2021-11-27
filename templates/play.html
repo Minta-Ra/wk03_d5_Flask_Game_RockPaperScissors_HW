@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="game">
+
+        <h1>Rock-Paper-Scissors Game</h1>
+
+        <form action="/playgame" method="post">
+            <!-- Name input field -->
+            <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+
+            <!-- Dropdown menu -->
+            <select name="choice" required>
+                <label for="choice">Your Choice</label>
+                <option style="display:none">Select One</option>
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+            
+            <!-- Button to submit and go to "/playgame" page -->
+            <input type="submit">
+
+        </form>
+    </div>
+
+
+{% endblock content %}
