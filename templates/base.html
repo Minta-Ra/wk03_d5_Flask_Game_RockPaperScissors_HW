@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            {{ title }} - Rock, Paper, Scissors
-        </title>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
-            </ul>
-        </nav>
-        <hr>
-        {% block content %}
-            <!-- Content -->
-        {% endblock content %}
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Imported google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Caveat&family=Fredoka+One&family=Indie+Flower&family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link CSS to HTML within the head from folder "static" -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+    <title>
+        {{ title }} - Rock, Paper, Scissors
+    </title>
+</head>
+<body>
+    <nav>
+        <ul class="lists">
+            <li>
+                <a class="links" href="/"><h2>Home</h2></a>
+                <img class="image" src="/static/images/rpc.png" alt="Rock Paper Scissors">
+            </li>
+        </ul>
+    </nav>
+    <hr class="nav-separation">
+    {% block content %}
+        <!-- Content -->
+    {% endblock content %}
+</body>
 </html>

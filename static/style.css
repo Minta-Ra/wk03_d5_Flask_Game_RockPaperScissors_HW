@@ -1,0 +1,62 @@
+
+.lists {
+    list-style-type: none;
+    display: flex;
+}
+
+.lists > li {
+    display: flex;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    padding: 40px 40px 0px 20px;
+}
+
+.image {
+    height: 150px;
+    width: auto;
+}
+
+
+.nav-separation {
+    border: 7px solid #2d2d2d;
+    margin: 0px;
+}
+
+body > nav {
+    background-image: linear-gradient(to right, #008282, #6E006E);
+    padding: 15px;
+    margin: 0px;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+body {
+    margin: 0px;
+    height: 1000px;
+    font-family: 'Reem Kufi', sans-serif;
+    background: linear-gradient(217deg, #43b3ae, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, #367588, rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, #264348, rgba(0,0,255,0) 70.71%);
+    background-repeat: no-repeat;
+}
+
+
+.game {
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+
+.welcome-to-game {
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
