@@ -1,5 +1,4 @@
 from models.player import Player
-# from models.all_players import players
 
 class Game():
 

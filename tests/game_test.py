@@ -8,8 +8,6 @@ class GameTest(unittest.TestCase):
         # Player objects
         self.player_1 = Player("Marry", "paper")
         self.player_2 = Player("Harry", "rock")
-        # players = [player_1, player_2]
-
 
     def test_game_logic(self):
         expected = Game.play_game(self.player_1, self.player_2)
