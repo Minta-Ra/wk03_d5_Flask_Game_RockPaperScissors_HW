@@ -4,16 +4,16 @@ This game is a web-based application with 2 ways to play it. One way typing your
 
 #
 ### Home page:
-![](rpc-images/1.jpg)
+![](rpc-images/1.png)
 
 #
 ### URL input and result
-![](rpc-images/2.jpg)
+![](rpc-images/2.png)
 
 #
 ### Play Game - against computer
-![](rpc-images/3.jpg)
+![](rpc-images/3.png)
 
 #
 ### Result
-![](rpc-images/4.jpg)
+![](rpc-images/4.png)
