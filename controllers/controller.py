@@ -47,4 +47,5 @@ def play_game():
     players = [player_1, player_2]
 
     winner_hc = Game.play_game(player_1, player_2)
+    
     return render_template("winner.html", title="Winner", winner=winner_hc, players=players)
